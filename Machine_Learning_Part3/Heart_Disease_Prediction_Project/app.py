@@ -7,7 +7,7 @@ scaler = joblib.load("scaler.pkl")
 expected_columns = joblib.load("columns.pkl")
 
 
-st.title("Heart stroke prediction by akarsh ")
+st.title("Heart stroke prediction by Mayukh Maity ")
 st.markdown("Provide the following details")
 
 age = st.slider("Age",18,100,40)
